@@ -10,6 +10,11 @@ nav {
     .main-title {
         font-size: 4rem;
         padding: 10px 0 5px;
+        .float-animation(10s, reverse, -220%);
+
+        @media @phone {
+            .float-animation(7s, reverse, -2%);
+        }
     }
 
     .nav-links {
@@ -18,9 +23,13 @@ nav {
         justify-content: space-between;
         padding: 10px 0;
         font-weight: 600;
+
+        .float-animation(10s, reverse, -220%);
         
         @media @phone {
             width: 80%;
+
+            .float-animation(7s, reverse, -140%);
         }
 
         a {

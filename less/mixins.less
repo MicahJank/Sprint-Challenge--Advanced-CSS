@@ -23,10 +23,34 @@
     background-color: @btn-color;
     color: @btn-text-color;
     font-size: 1.7rem;
-    
+
 
     &:hover {
         background-color: @btn-text-color;
         color: @btn-color;
+    }
+}
+
+//animations
+.float-animation(@duration: 10s, @direction: reverse, @start-position: 220%) {
+    animation-duration: @duration;
+    animation-iteration-count: initial;
+    transform-origin: 50%;
+    animation-name: basic-float;
+    animation-timing-function: ease-in-out;
+    animation-direction: @direction;
+
+    @keyframes basic-float {
+        0% {
+            transform: scale(1, 1) translateX(0);
+        }
+
+        50% {
+            transform: scale(1, 1) translateX(0);
+        }
+
+        100% {
+            transform: translateX(@start-position);
+        }
     }
 }
