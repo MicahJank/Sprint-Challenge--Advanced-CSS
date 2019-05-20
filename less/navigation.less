@@ -1,8 +1,7 @@
 // Navigation code here
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .flex(column);
+
     background-color: @nav-bg;
     border-bottom: 2px solid @nav-border;
 
@@ -18,9 +17,7 @@ nav {
         padding: 10px 0;
 
         a {
-            text-decoration: none;
-            color: @nav-font;
-            font-size: 1.5rem;
+            .a-links(@nav-font);
         }
     }
 } // nav

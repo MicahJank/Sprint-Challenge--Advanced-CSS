@@ -179,8 +179,8 @@ nav .nav-links {
 }
 nav .nav-links a {
   text-decoration: none;
-  color: #454A59;
   font-size: 1.5rem;
+  color: #454A59;
 }
 footer {
   color: #22283B;
@@ -191,6 +191,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
