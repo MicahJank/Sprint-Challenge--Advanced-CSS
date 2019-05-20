@@ -12,9 +12,13 @@ nav {
 
     .nav-links {
         display: flex;
-        width: 40%;
+        width: 20%;
         justify-content: space-between;
         padding: 10px 0;
+        
+        @media @phone {
+            width: 80%;
+        }
 
         a {
             .a-links(@nav-font);
