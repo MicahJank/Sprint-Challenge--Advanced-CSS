@@ -1,9 +1,11 @@
 // Navigation code here
 nav {
     .flex(column);
-
+    
     background-color: @nav-bg;
     border-bottom: 2px solid @nav-border;
+    position: fixed;
+    width: 100%;
 
     .main-title {
         font-size: 4rem;
@@ -15,6 +17,7 @@ nav {
         min-width: 400px;
         justify-content: space-between;
         padding: 10px 0;
+        font-weight: 600;
         
         @media @phone {
             width: 80%;
