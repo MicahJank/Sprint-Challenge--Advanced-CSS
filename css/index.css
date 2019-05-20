@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  color: #5E6164;
 }
 html,
 body {
@@ -183,14 +184,17 @@ nav .nav-links a {
   color: #454A59;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #81848E;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  color: #23293B;
 }
 .home .intro img {
   border-radius: 5px;
