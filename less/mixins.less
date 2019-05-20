@@ -14,3 +14,17 @@
 }
 
 //sign up button mixin
+.btn-small(@btn-color: @btn-bg-color, @btn-text-color: white) {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: @btn-color;
+    color: @btn-text-color;
+    font-size: 1.7rem;
+
+    &:hover {
+        background-color: @btn-text-color;
+        color: @btn-color;
+    }
+}
