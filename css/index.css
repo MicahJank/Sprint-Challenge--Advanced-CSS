@@ -174,7 +174,7 @@ nav .main-title {
 }
 nav .nav-links {
   display: flex;
-  width: 20%;
+  min-width: 400px;
   justify-content: space-between;
   padding: 10px 0;
 }
@@ -203,11 +203,7 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
-}
-@media (max-width: 500px) {
-  .home .intro img {
-    width: 100%;
-  }
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -262,6 +258,7 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     padding: 20px 22px;
+    margin-top: 30px;
   }
 }
 .home .walk .walk-text {
@@ -285,6 +282,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   width: 30%;
+  min-width: 100px;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
